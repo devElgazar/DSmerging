@@ -1,0 +1,174 @@
+/*----------- NavBar ------------------------*/
+.nav
+{
+    font-family: 'Tajawal', sans-serif;
+    color:black;
+}
+.navbar
+{
+    margin-bottom:15px;
+
+}
+.navbar-default .navbar-toggle {
+    border:none;
+    background: none;
+}
+.navbar-default .navbar-toggle span
+{
+    color: #fd6602;
+}
+.navbar-default .navbar-toggle:hover {
+    background: none;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fd6602;
+}
+
+.collapse ul {
+    list-style: none;
+}
+.collapse ul li {
+    display: inline-block;
+    vertical-align: middle;
+}
+.collapse ul li a:hover,.collapse ul li a:focus,.collapse ul li a:active
+ {
+    color:black;
+    text-decoration: none;
+}
+.collapse ul li a{
+    font-family:'Tajawal';
+    text-decoration: none;
+    transition: color 0.1s, background-color 0.1s;
+}
+.collapse ul li a {
+    position: relative;
+    display: block;
+    padding: 16px 0;
+    margin: 0 12px;
+    letter-spacing: 1px;
+    font-size: 20px;
+    line-height: 16px;
+    font-weight: 900;
+    text-transform: uppercase;
+    transition: color 0.1s,background-color 0.1s,padding 0.2s ease-in;
+}
+.navbar-default .navbar-nav>li>a {
+    color: black;
+}
+.navbar-default .navbar-nav>li>a:hover
+{
+    color: #fd6602;
+    background-color: transparent;
+}
+.collapse ul li a::before {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 3px;
+    left: 0;
+    height: 3px;
+    width: 100%;
+    background-color:#fd6602;
+    transform-origin: right top;
+    transform: scale(0, 1);
+    transition: color 0.3s,transform 0.4s ease-out;
+}
+.collapse ul li a:active::before {
+    background-color: #fd6602;
+}
+.collapse ul li a:hover::before, a:focus::before {
+    transform-origin: left top;
+    transform: scale(1, 1);
+}
+
+@media(max-width:760px)
+{
+    .navbar-default .navbar-toggle.collapsed
+    {
+        background: none;
+    }
+}
+
+.sign
+{
+    border: none;
+    border-radius: 17px;
+    padding: 30px;
+    background: white;
+    width: 500px;
+    height: 580px;
+    margin-top: 40px;
+    box-shadow: 0 0 20px rgb(243, 121, 50);  
+
+}
+
+.login
+{
+    border: none;
+    border-radius: 17px;
+    padding: 30px;
+    background: white;
+    width: 500px;
+    margin-top: 40px;
+    box-shadow: 0 0 20px rgb(243, 121, 50);  
+
+}
+
+
+.navbar
+{
+    box-shadow: 0 0 10px rgb(38, 54, 39);  
+
+}
+.bton
+{
+    background-color: tomato;
+    color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 5px 13px 5px 13px ;
+    font-size: 20px;
+    margin: 15px;
+}
+.bton:hover
+{
+    background-color: white;
+    color:tomato;
+    box-shadow: 0 0 20px rgb(243, 121, 50);  
+
+}
+.text-body 
+{
+    text-decoration: none;
+    color: black;
+}
+.text
+{
+    font-size: 50px;
+    font-family: 'segoe print';
+    color: black;
+
+}
+.welcome
+{
+    border: none;
+    border-radius: 17px;
+    padding: 10px;
+    background: white;
+    margin-top: 200px;
+    box-shadow: 0 0 20px rgb(243, 121, 50);
+}
+h1 span
+{
+    color: #fd6602;
+    font-weight: bold;
+    font-family: 'Tajawal';
+
+}
+h1
+{
+    color: black;
+    font-family: 'Tajawal';
+
+}
